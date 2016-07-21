@@ -121,4 +121,6 @@ div {
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
-.madium-6 {}
+img {
+    border-radius: 300px;
+}
