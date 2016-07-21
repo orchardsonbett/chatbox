@@ -2,34 +2,34 @@ div {
     animation: rotate-all 2s 0 infinite linear alternate;
 }
 .div1 {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     background-color: #669999;
     position: relative;
     margin: auto;
     animation: square-to-circle 2.5s .5s infinite cubic-bezier(1, .015, .295, 1.225) alternate-reverse;
 }
 .div2 {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     background-color: #669999;
     position: relative;
     margin: auto;
     animation: square-to-circle2 2.5s .42s infinite cubic-bezier(1, .015, .295, 1.225) alternate-reverse;
 }
 #one {
-    top: 150px;
+    top: 50px;
 }
 #two {
-    top: 150px;
-    right: 80px;
+    top: 100px;
+    right: 50px;
 }
 #three {
-    top: 150px;
+    top: 100px;
 }
 #four {
     bottom: 10px;
-    left: 80px;
+    left: 50px;
 }
 @keyframes square-to-circle {
     0% {
@@ -38,22 +38,22 @@ div {
         transform: rotate(45deg);
     }
     25% {
-        border-radius: 50% 0 0 0;
+        border-radius: 20% 0 0 0;
         background: darksalmon;
         transform: rotate(135deg);
     }
     50% {
-        border-radius: 50% 50% 0 0;
+        border-radius: 30% 30% 0 0;
         background: indianred;
         transform: rotate(180deg);
     }
     75% {
-        border-radius: 50% 50% 50% 0;
+        border-radius: 40% 40% 40% 0;
         background: lightcoral;
         transform: rotate(315deg);
     }
     100% {
-        border-radius: 50%;
+        border-radius: 30%;
         background: darksalmon;
         transform: rotate(404deg);
     }
@@ -122,5 +122,6 @@ div {
     animation-iteration-count: infinite;
 }
 img {
-    border-radius: 300px;
+    width: 50%;
+    height: 20%
 }
